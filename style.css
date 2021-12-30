@@ -1,0 +1,230 @@
+body{
+    background-color: #383e4e
+}
+.layout{
+    background: black;
+    width: fit-content;
+     margin: auto;
+    margin-top: 5rem;
+    padding: 5%;
+}
+.quiztitle
+{
+    text-align: center;
+    color:white;
+    margin: auto;
+    margin-top: 50px;
+    /* border-radius:10px;
+    background-color:rgba(0, 0, 0, 0.6);
+    width:400px; */
+    
+}
+
+.playbutton,.highscorebutton, .goHomeButton
+{
+    display: block;
+    width:300px;
+    color:black;
+    background-color:white;
+    border-radius:10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    height:50px;
+}
+
+.headerdiv
+{
+    display: flex;
+    background-color:white;
+    line-height: 50px;
+    background: black;
+    color:rgb(255,255,255);
+    letter-spacing: 1px;
+    margin: 15px;
+    
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true)";zoom:1;
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true);
+  
+    -moz-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+    box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true)";
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true);
+}
+
+.progressdiv
+{
+    align-self: center;
+}
+
+.scorediv
+{
+    float:right;
+    align-self: center;
+    text-align: right;
+}
+
+
+
+.button {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding-right: 30px;
+    padding-left: 70px;
+    position: relative;
+    background-color:rgb(41,127,184);
+    color:rgb(255,255,255);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    width:300px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true)";zoom:1;
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true);
+  
+    -moz-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+    box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true)";
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true);
+}
+
+.button span {
+    position: absolute;
+    left: 0;
+    width: 50px;
+    background-color:rgba(0,0,0,0.5);
+    height:47px;
+    -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: 1px solid  rgba(0,0,0,0.15);
+}
+
+.button:hover , .button.active span {
+    background-color:rgb(0,102,26);
+    border-right: 1px solid  rgba(0,0,0,0.3);
+}
+
+.button:active, .button:hover{
+    margin-top: 2px;
+    margin-bottom: 13px;  
+    -moz-box-shadow:0px 1px 0px rgba(255,255,255,0.5);
+    -webkit-box-shadow:0px 1px 0px rgba(255,255,255,0.5);
+    box-shadow:0px 1px 0px rgba(255,255,255,0.5);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ccffffff,Positive=true)";
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ccffffff,Positive=true);
+}
+
+.option1
+{
+    background: #FF7F00;
+}
+
+.option2
+{
+    background: #8e44ad;
+}
+
+.option3
+{
+    background: #1abc9c;
+}
+
+.option4
+{
+    background: #e74c3c;
+}
+
+.nextbuttonDiv
+{
+    text-align: center;
+    position: absolute;
+    right:15%;
+    width: 70px;
+    background: green;
+    border-radius: 20px;
+}
+
+.question
+{
+    /* background-color:white; */
+    /* display: inline-block; */
+    line-height: 50px;
+    position: relative;
+    /* background-color:black; */
+    color:black;
+    font-size:x-large;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    
+    /* border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true)";zoom:1;
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true);
+  
+    -moz-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+    -webkit-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+    box-shadow:0px 2px 2px rgba(0,0,0,0.2);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true)";
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true); */
+}
+
+.scoredisplay{
+    text-align: center;
+    color: white;
+    padding-top:20px;
+}
+
+.username{
+    display: block;
+    width:300px;
+    color:black;
+    border-radius:10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    height:50px;
+}
+
+.savebutton
+{
+    text-decoration: underline;
+    color:white;
+    background-color:rgb(31, 132, 150);
+    border-radius:10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    height:50px;
+    display: block;
+    width:300px;
+}
+
+.hs, .hscontent
+{
+    text-align: center;
+    color: white;
+    padding-top:20px;
+}
+
+.hs
+{
+    font-size:larger
+}
