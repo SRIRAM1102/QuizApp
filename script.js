@@ -147,22 +147,13 @@ function getHeaderContent() {
     progressdivtext.setAttribute("id","progressText container");
     progressdivtext.innerText='Question '+(i+1)+'/10';
     let br=document.createElement("br");
-    // let progreessiveinputrange=document.createElement("input");
-    // progreessiveinputrange.setAttribute("class","inputrange");
-    // progreessiveinputrange.setAttribute("type","range");
-    // progreessiveinputrange.setAttribute("min",0);
-    // progreessiveinputrange.setAttribute("max",10);
-    // progreessiveinputrange.setAttribute("value",i+1);
-    // progreessiveinputrange.setAttribute("disabled","true");
     progressdiv.append(progressdivtext);
-    
     let scorediv=document.createElement("div");
     scorediv.setAttribute("class","scorediv container");
     let scoretexthead=document.createElement("div");
     scoretexthead.setAttribute("class","scoretextheader container");
     scoretexthead.innerText="Score  "+score;
     scorediv.append(scoretexthead);
-    
     headerdiv.append(progressdiv,scorediv);
     return headerdiv;
 }
